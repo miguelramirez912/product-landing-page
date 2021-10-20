@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet"> 
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+</head>
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="logo">
+                <img id="header-img" src="./img/icons8-shoes-64.png" alt="">
+                <p>Mi Tienda</p>
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#prom" class="nav-link">Promocional</a></li>
+                    <li><a href="#products" class="nav-link">Productos</a></li>
+                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="features">
+        <div class="feature">
+            <div class="feature-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="feature-txt">
+                <h2>Garantia de calidad.</h2>
+                <p>Todos nuestros productos son de marcas reconocidas por lo que los materiales con los que estan hechos son de primera calidad.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">
+                <i class="fas fa-shipping-fast"></i>
+            </div>
+            <div class="feature-txt">
+                <h2>Envio a toda la republica. </h2>
+                <p>Nuestros productos son enviados a traves de servicios de paqueteria con un tiempo de entrega de entre dos a cinco dias dependiendo el lugar de entrega.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <div class="feature-icon">
+                <i class="fas fa-credit-card"></i>
+            </div>
+            <div class="feature-txt">
+                <h2>Meses sin intereses.</h2>
+                <p>Puedes pagar a meses sin intereses con tarjetas participantes. Este servicio solo esta diponible en compras mayores a 1000 pesos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="prom">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ivCkbcuzlDQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="products">
+        <div class="card">
+            <div class="card-name">
+                <p>	Zapatos Cofort Flexi de Piel para Mujer</p>
+            </div>
+            <div class="card-img" style="background-image: url(./img/shoes_3.jpg);">
+            </div>
+            <div class="card-text">
+                <span>$599 MXN</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-name">
+                <p>Tenis Deportivos Niño/Niña</p>
+            </div>
+            <div class="card-img" style="background-image: url(./img/shoes_2.jpg);">
+            </div>
+            <div class="card-text">
+                <span>$450 MXN</span>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-name">
+                <p>Zapato de Vestir Oxford</p>
+            </div>
+            <div class="card-img" style="background-image: url(./img/shoes_1.jpg);">
+            </div>
+            <div class="card-text">
+                <span>$600 MXN</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <form  id="form" action="https://www.freecodecamp.com/email-submit">
+            <h2>Dejanos tu correo para que podamos enviarte los catalogos completos</h2>
+            <input type="email" name="email" id="email" placeholder="Ingresa tu Email">
+            <input type="submit" id="submit" value="Enviar">
+        </form>
+    </section>
+    <footer id="footer">
+        <ul>
+            <li><a href="#" class="footer-link">Privacidad</a></li>
+            <li><a href="#" class="footer-link">Terminos</a></li>
+            <li><a href="#" class="footer-link">Contacto</a></li>
+        </ul>
+        <p class="copy-right">Copyright 2021, Mi Tienda</p>
+    </footer>
+    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
